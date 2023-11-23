@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+    content="width=device-width, initial-scale=1.0">
+    <title> imagens dinâmicas </title>
+</head>
+<body>
+
+ <h1> imagens que se adaptam sozinhas </h1>
+
+<picture><!--source media faz a troca automatica de acordo com o tamanho da tela-->
+    
+ <source media="(max-width: 500px)"  
+ srcset="./imagens/img-p.png" type="image/png">
+
+
+ <source media="(max-width:720px)"
+ srcset="./imagens/img-m.png" type="image/png">  
+
+
+ <img src="./imagens/img-g.png" alt="imagem flexível">
+
+
+</picture>  
+
+
+ <h1> Reproduzindo Áudio </h1>
+
+ <p> Reproduzindo Áudio com HTML sem conversão </p>
+
+ <audio src="./media/Press Fuse.mp3" controls autoplay></audio>
+
+
+ <p> Reproduzindo Áudio com conversão </p>
+
+
+ <audio preload="metadata" controls autoplay >
+
+    
+ <source src="./media/Press Fuse.mp3" type="audio/mp3">
+
+
+</audio>
+
+
+
+</body>
+</html>
