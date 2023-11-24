@@ -1,0 +1,49 @@
+div{
+
+display: inline-block;
+
+
+/* -- inline tudo na mesma linha-- */
+
+
+background-color: rgba(166, 255, 0, 0.467);
+
+
+border: 5px solid rgb(1, 189, 246);
+
+
+
+text-align: center;
+
+
+height: 200px;
+
+
+
+width: 200px;
+
+}
+
+
+div:hover{
+
+background-color: rgb(255, 255, 255);
+
+color: rgb(255, 255, 255);
+
+border: 5px dashed rgb(8, 0, 255);
+
+box-shadow: rgb(0, 0, 0) 3px 3px 3px ;
+
+}
+
+#btn{
+
+width: 170px;
+height: 95px;
+border-radius: 15px;
+background-color: blue;
+
+
+}
+
