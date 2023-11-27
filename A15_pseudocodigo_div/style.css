@@ -1,48 +1,75 @@
 div{
 
-display: inline-block;
+ display: inline-block;
 
 
-/* -- inline tudo na mesma linha-- */
+    /* -- inline tudo na mesma linha-- */
 
 
-background-color: rgba(166, 255, 0, 0.467);
-
-
-border: 5px solid rgb(1, 189, 246);
+     background-color: rgba(0, 217, 255, 0.467);
 
 
 
-text-align: center;
-
-
-height: 200px;
+         border: 5px solid rgb(0, 0, 0);
 
 
 
-width: 200px;
+     text-align: center;
+
+
+    height: 200px;
+
+
+
+ width: 200px;
 
 }
 
 
 div:hover{
 
-background-color: rgb(255, 255, 255);
+ background-color: rgb(255, 255, 0);
 
-color: rgb(255, 255, 255);
+     color: azure;
 
-border: 5px dashed rgb(8, 0, 255);
 
-box-shadow: rgb(0, 0, 0) 3px 3px 3px ;
+
+     border: 5px dashed rgb(73,6,150);
+
+
+ box-shadow: rgb(0, 0, 0) 3px 3px 3px ;
 
 }
 
 #btn{
 
-width: 170px;
-height: 95px;
-border-radius: 15px;
-background-color: blue;
+ width: 170px;
+
+
+     height: 95px;
+
+
+     border-radius: 15px;
+
+
+ background-color: blue;
+
+
+} 
+
+#btn:hover{
+
+
+ background-color: chartreuse;
+
+
+     width: 180px;
+
+
+     height: 105px;
+
+ box-shadow: 2 px 2px 5px black;
+
 
 
 }
