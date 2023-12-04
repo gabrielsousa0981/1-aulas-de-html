@@ -1,0 +1,52 @@
+
+body{
+
+ background-color: whitesmoke;
+ width: auto;
+ border: 15px solid rgb(0, 0, 0);
+ padding: 10px;
+ margin:auto; 
+}
+
+
+h1{
+
+ font-size: 30px;
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ color: black;
+ text-align: center;
+
+
+}
+img{
+
+ margin: auto;
+ display: block;
+ border-radius: 8px;
+
+
+}
+
+p{
+
+ font-size: 19px;
+ text-align: center;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+}
+iframe{
+
+    
+ margin: auto;
+ display: block;
+
+}
+.header{
+
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+
+
+}
