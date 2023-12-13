@@ -17,25 +17,18 @@
 
     const city = cityInput.value;
 
-
-
     }
-
-
+    
+   
 // CHAMADA DA API
 
-
    const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&lang=pt_br`);
-
-
+    
 
 // RESPOSTA DA API E TRANSFORMANDO EM JSON.
 
-
    const data = await response.json();
-
-
-
+    
 // 200 indica uma resposta bem-sucedida da cidade encontrada na API.
 
 if (data.cod === 200) {
