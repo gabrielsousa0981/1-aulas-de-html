@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</head>
+
+
+<body>
+    <form id="formForm" class="shortcode-generator-form" data-gtm-form-interact-id="0">
+
+        <!--Grid row-->
+        <div class="row text-center">
+  
+          <!--Grid column-->
+          <div class="col-sm-4">
+  
+            <h4 class="my-4 h-4 font-weight-bold mx-auto">Choose form type</h4>
+  
+            <fieldset id="formTypeWrapper">
+              <div class="select-wrapper mdb-select"><span class="caret">▼</span><input type="text" class="select-dropdown form-control" readonly="true" required="false" data-activates="select-options-e606be4b-f759-4925-8adf-9806bb1f02db" value="" role="listbox" aria-multiselectable="false" aria-disabled="false" aria-required="false" aria-haspopup="true" aria-expanded="false"><ul id="select-options-e606be4b-f759-4925-8adf-9806bb1f02db" class="dropdown-content select-dropdown w-100" style="display: none; width: 227.538px; position: absolute; top: 0px; left: 0px; opacity: 1;"><li class="disabled" role="option" aria-selected="false" aria-disabled="true"><span class="filtrable "> Choose form type    </span></li><li class="active" role="option" aria-selected="true" aria-disabled="false"><span class="filtrable "> Login    </span></li><li class="" role="option" aria-selected="false" aria-disabled="false"><span class="filtrable "> Register    </span></li><li class="" role="option" aria-selected="false" aria-disabled="false"><span class="filtrable "> Subscription    </span></li><li class="" role="option" aria-selected="false" aria-disabled="false"><span class="filtrable "> Contact    </span></li><li class="" role="option" aria-selected="false" aria-disabled="false"><span class="filtrable "> Save    </span></li></ul><select class="mdb-select initialized" data-stop-refresh="true" data-gtm-form-interact-field-id="1">
+                <option value="" disabled="">Choose form type</option>
+                <option value="login" selected="">Login</option>
+                <option value="register">Register</option>
+                <option value="subscription">Subscription</option>
+                <option value="contact">Contact</option>
+                <option value="save">Save</option>
+              </select></div>
+            </fieldset>
+  
+          </div>
+          <!--Grid column-->
+  
+          <!--Grid column-->
+          <div class="col-sm-4">
+  
+            <h4 class="my-4 h-4 font-weight-bold mx-auto">Choose form style</h4>
+  
+            <fieldset class="switch mb-4" id="formStyleWrapper">
+              <legend></legend>
+              <label>
+                Default
+                <input name="modalBackdrop" type="checkbox" data-gtm-form-interact-field-id="0">
+                <span class="lever"></span>
+                Material
+              </label>
+            </fieldset>
+  
+          </div>
+          <!--Grid column-->
+  
+          <!--Grid column-->
+          <div class="col-sm-4">
+  
+            <fieldset id="formClearWrapper" class="form-check mt-5">
+              <button type="button" class="btn btn-danger waves-effect waves-light">Clear Template</button>
+            </fieldset>
+  
+          </div>
+          <!--Grid column-->
+  
+        </div>
+        <!--Grid row-->
+  
+      </form>
+      <hr>
+      <div class="row">
+        <div class="col-lg-6">
+          <h4 class="my-4 h-4 font-weight-bold mx-auto">Drag &amp; drop components</h4>
+          <ul class="nav md-pills pills-primary">
+            <li class="nav-item">
+              <a class="nav-link active" data-toggle="tab" href="#inputs-pane" role="tab">Inputs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-toggle="tab" href="#checks-pane" role="tab">Radio/Checkboxes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-toggle="tab" href="#select-pane" role="tab">Select</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-toggle="tab" href="#additional-pane" role="tab">Additional</a>
+            </li>
+          </ul>
+  
+          <!-- Tab panels -->
+          <div class="tab-content pt-0">
+  
+            <!--Panel 1-->
+            <div class="tab-pane fade in show active" id="inputs-pane" role="tabpanel">
+              <ul id="inputs-pane-ul" class="droptrue drop-list ui-sortable">
+              <li data-template="dTextInputTemp" data-popover="input">
+      <label for="textInput">Text input Label</label>
+      <input type="text" id="textInput" class="form-control mb-4" placeholder="Text input">
+      </li>
+              <li data-template="dPasswordInputTemp" data-popover="input">
+      <label for="passwdInput">Password Label</label>
+      <input type="password" id="passwdInput" class="form-control mb-4" placeholder="Password input">
+      </li>
+              <li data-template="dEmailInputTemp" data-popover="input">
+      <label for="emailInput">Email Label</label>
+      <input type="email" id="emailInput" class="form-control mb-4" placeholder="Email input">
+      </li>
+              <li data-template="dFileInputTemp" data-popover="file">
+      <div class="input-group mb-4">
+          <div class="input-group-prepend">
+              <span class="input-group-text">Upload</span>
+          </div>
+          <div class="custom-file">
+              <input type="file" class="custom-file-input" id="fileInput" aria-describedby="fileInput">
+              <label class="custom-file-label" for="fileInput">File Label</label>
+          </div>
+      </div>
+      </li>
+              <li data-template="dTextareaTemp" data-popover="textarea">
+      <label for="textarea">Textarea Label</label>
+      <textarea id="textarea" class="form-control mb-4" placeholder="Textarea"></textarea>
+      </li>
+          </ul>
+            </div>
+            <!--/.Panel 1-->
+  
+            <!--Panel 2-->
+            <div class="tab-pane fade" id="checks-pane" role="tabpanel">
+              <ul id="checks-pane-ul" class="droptrue drop-list ui-sortable">
+              <li data-template="dCheckboxTemp" data-popover="checkbox">
+      <div class="custom-control custom-checkbox mb-4">
+          <input type="checkbox" class="custom-control-input" id="checkbox">
+          <label class="custom-control-label" for="checkbox">Default checkbox</label>
+      </div>
+  </li>
+              <li data-template="dRadioTemp" data-popover="checkbox">
+      <div class="custom-control custom-radio mb-4">
+          <input type="radio" class="custom-control-input" id="radio" name="defaultName">
+          <label class="custom-control-label" for="radio">Textarea Label</label>
+      </div>
+  </li>
+              <li data-template="dCheckboxPassTemp" data-popover="checkbox">
+      <div class="d-flex justify-content-between">
+          <div>
+              <!-- Remember me -->
+              <div class="custom-control custom-checkbox">
+                  <input type="checkbox" class="custom-control-input" id="rememberme">
+                  <label class="custom-control-label" for="rememberme">Remember me</label>
+              </div>
+          </div>
+          <div>
+              <a href="">Forgot password?</a>
+          </div>
+      </div>
+  </li>
+          </ul>
+            </div>
+            <!--/.Panel 2-->
+  
+            <!--Panel 3-->
+            <div class="tab-pane fade" id="select-pane" role="tabpanel">
+              <ul id="select-pane-ul" class="droptrue drop-list ui-sortable">
+              <li data-template="dSelectTemp" data-popover="select">
+      <select class="browser-default custom-select mb-4" id="select">
+          <option value="" disabled="" selected="">Choose your option</option>
+          <option value="1">Option 1</option>
+          <option value="2">Option 2</option>
+          <option value="3">Option 3</option>
+      </select>
+      </li>
+              <li data-template="dSelectTemp" data-popover="select">
+      <label for="select">Default select</label>
+      <select class="browser-default custom-select mb-4" id="select">
+          <option value="" disabled="" selected="">Choose your option</option>
+          <option value="1">Option 1</option>
+          <option value="2">Option 2</option>
+          <option value="3">Option 3</option>
+      </select>
+  </li>
+          </ul>
+            </div>
+            <!--/.Panel 3-->
+  
+            <!--Panel 4-->
+            <div class="tab-pane fade" id="additional-pane" role="tabpanel">
+              <ul id="additional-pane-ul" class="droptrue drop-list ui-sortable">
+          <li data-template="helperBlock" data-popover="helper">
+      <small id="helper" class="form-text text-muted mb-4">Default helper block</small>
+  </li>
+      </ul>
+            </div>
+            <!--/.Panel 4-->
+  
+          </div>
+        </div>
+  
+        <div class="col-lg-6">
+          <h4 class="my-4 h-4 font-weight-bold mx-auto">Your form</h4>
+          <div id="shortcodePreviews">
+            <div id="formPreview">
+  <form class="border border-light p-5">
+  
+      <p class="h4 mb-4 text-center">Sign in</p>
+      
+      <ul id="sortable-form" class="droptrue drop-list ui-sortable">
+      <li data-template="dTextInputTemp" data-popover="input" class="ui-sortable-handle" data-original-title="" title="">
+      <input type="email" id="defaultLoginFormEmail" class="form-control mb-4" placeholder="E-mail">
+      </li>
+      <li data-template="dPasswordInputTemp" data-popover="input" class="ui-sortable-handle" data-original-title="" title="">
+      <input type="password" id="defaultLoginFormPassword" class="form-control mb-4" placeholder="Password">
+      </li>
+      <li data-template="dCheckboxPassTemp" data-popover="checkbox" class="ui-sortable-handle" data-original-title="" title="">
+      <div class="d-flex justify-content-between">
+          <div>
+              <div class="custom-control custom-checkbox">
+                  <input type="checkbox" class="custom-control-input" id="defaultLoginFormRemember">
+                  <label class="custom-control-label" for="defaultLoginFormRemember">Remember me</label>
+              </div>
+          </div>
+          <div>
+              <a href="">Forgot password?</a>
+          </div>
+      </div>
+      </li>
+      </ul>
+      
+      <button class="btn btn-info btn-block my-4" type="submit">Sign in</button>
+  
+      <div class="text-center">
+          <p>Not a member?
+              <a href="">Register</a>
+          </p>
+  
+          <p>or sign in with:</p>
+          <a type="button" class="light-blue-text mx-2">
+              <i class="fab fa-facebook-f"></i>
+          </a>
+          <a type="button" class="light-blue-text mx-2">
+              <i class="fab fa-twitter"></i>
+          </a>
+          <a type="button" class="light-blue-text mx-2">
+              <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a type="button" class="light-blue-text mx-2">
+              <i class="fab fa-github"></i>
+          </a>
+      </div>
+  </form>
+  </div>
+          </div>
+        </div>
+      </div>
+   
+   
+   
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+</body>
+</html>
